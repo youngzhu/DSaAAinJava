@@ -1,0 +1,6 @@
+**Data Structures and Algorithm Analysis in Java, 2/E** by Mark Allen Weiss
+
+《数据结构与算法分析，Java语言描述》学习笔记。
+
+> 数据结构，组织大量数据的方法  
+> 算法分析，算法运行时间的估计
