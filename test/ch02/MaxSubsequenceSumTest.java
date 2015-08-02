@@ -27,6 +27,17 @@ public class MaxSubsequenceSumTest extends MaxSubsequenceSum {
 		assertEquals(20, MaxSumTest.maxSubSum3(arr));
 	}
 	
+	@Test
+	public void test2() {
+		int[] arr = {-2,  -4};
+		
+		System.out.println(MaxSubsequenceSum.maxSubSum1(arr));
+		System.out.println(MaxSubsequenceSum.maxSubSum2(arr));
+		System.out.println(MaxSubsequenceSum.maxSubSum3(arr));
+		System.out.println(MaxSubsequenceSum.maxSubSum4(arr));
+		System.out.println(MaxSumTest.maxSubSum3(arr));
+	}
+	
 	/**
 	 * maxSubSum1耗时：2
 		maxSubSum2耗时：0
