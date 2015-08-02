@@ -7,6 +7,7 @@ import java.util.Random;
 
 import org.junit.Test;
 
+import util.ArrayUtil;
 import common.sort.BubbleSort;
 
 public class SelectionProblemTest {
@@ -33,13 +34,7 @@ public class SelectionProblemTest {
 	public void testRandom() throws Exception {
 		int len = new Random().nextInt(100) + 1; // 至少要有一个数
 		
-		int[] arr = new int[len];
-		
-		for (int i = 0; i < len; i++) {
-			// 随机赋值
-			// 两个相减，保证有正有负
-			arr[i] = new Random().nextInt(10000) - new Random().nextInt(10000);
-		}
+		int[] arr = ArrayUtil.buildRandomArr(len);
 		
 		// 1 <= k <= len
 		int k = new Random().nextInt(len) + 1;
