@@ -6,6 +6,14 @@ import org.junit.Test;
 
 import util.ArrayUtil;
 
+/**
+ * 耗时只是参考，不同的机器时间不一样
+ *
+ * @author by Young.ZHU
+ *      on 2015年8月2日
+ *
+ * Package&FileName: ch02.MaxSubsequenceSumTest
+ */
 public class MaxSubsequenceSumTest extends MaxSubsequenceSum {
 
 	@Test
