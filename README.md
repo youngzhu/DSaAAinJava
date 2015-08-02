@@ -7,4 +7,4 @@ Notes for **Data Structures and Algorithm Analysis in Java, 2/E** by Mark Allen 
 
 
 ---
-`ref` 包下面的代码是从网站上下载的源代码 [（link）](http://users.cis.fiu.edu/~weiss/dsaajava3/code/)。参考一下。
+`ref` 包下面的代码是从[网站](http://users.cis.fiu.edu/~weiss/dsaajava3/code/)上下载的源代码。参考一下。
