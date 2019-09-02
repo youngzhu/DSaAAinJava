@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import util.ArrayUtil;
+import common.util.ArrayUtil;
 
 /**
  * 耗时只是参考，不同的机器时间不一样
